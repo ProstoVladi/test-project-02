@@ -1,0 +1,60 @@
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* цвет фона #FFFFFF */
+/* цвет акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bgc-color: #FFFFFF;
+    --bgc-text-color: #F5F4FA;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bgc-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact-list .mail:hover,
+.contact-list .mail:focus {
+    color: var(--accent-color);
+}
+
+/* button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--bgc-text-color);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-bgc-color);
+    background-color: var(--accent-color);
+}
+ 
+.title {
+    color: var(--title-text-color);
+}

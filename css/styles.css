@@ -62,7 +62,7 @@ body {
     color: var(--title-text-color);
 }
 
-/* butto */
+/* button */
 .button {
     color: var(--primary-bgc-color);
     background-color: var(--accent-color);
