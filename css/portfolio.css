@@ -15,10 +15,38 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-bgc-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88;
+    letter-spacing: 0.48px;
 }
 
 .list {
     list-style: none;
+}
+
+/* хедер */
+.header .logo {
+    color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.header .link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+/* Контакт с нами */
+.contact-list li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
 }
 
 /* site-nav */
@@ -47,6 +75,11 @@ body {
 button {
     color: var(--title-text-color);
     background-color: var(--bgc-text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.48px;
 }
 
 button:hover,
@@ -57,4 +90,12 @@ button:focus {
  
 .title {
     color: var(--title-text-color);
+}
+
+/* портфолио */
+.portfolio .title {
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 1.08px;
 }
