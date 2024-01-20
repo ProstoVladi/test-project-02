@@ -57,13 +57,15 @@ body {
     color: var(--accent-color);
 }
 
-.contact .mail:hover,
-.contact .mail:focus {
+/* Наши контакты, адрес */
+.contact-list:hover,
+.contact-list:focus {
     color: var(--accent-color);
 }
-
-.contact li,
-.mail {
+.contact-list {
+    text-decoration: none;
+}
+.contacts li {
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.28px;
@@ -113,6 +115,14 @@ body {
     font-weight: 400;
     letter-spacing: 0.48px;
 }
+.team-list a:hover,
+.team-list a:focus {
+    color: var(--primary-bgc-color);
+    background-color: var(--accent-color);
+}
+.team-list a {
+    text-decoration: none;
+}
 
 /* button */
 .button {
@@ -127,8 +137,11 @@ body {
 }
 
 /* футер */
+.footer {
+    background-color: #2F303A;
+}
 .footer .logo {
-    color: var(--title-text-color);
+    color: var(--primary-bgc-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -137,6 +150,37 @@ body {
     }
 .footer .accent {
     color: var(--accent-color);
+}
+.footer .address {
+    color: var(--primary-bgc-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.footer .contact {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.footer .title {
+    color: var(--primary-bgc-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--primary-bgc-color);
+    background-color: var(--accent-color);
+}
+
+.social-links .link {
+    list-style: none;
+    text-decoration: none;
 }
 
 

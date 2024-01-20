@@ -24,49 +24,53 @@ body {
 
 .list {
     list-style: none;
+    text-decoration: none;
 }
 
-/* хедер */
+/* Xедер */
 .header .logo {
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
+    text-decoration: none;
+}
+.header .accent {
+    color: var(--accent-color);
 }
 
 .header .link {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
+    text-decoration: none;
 }
 
-/* Контакт с нами */
-.contact-list li {
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-}
-
-/* site-nav */
-
+/* Навигация сайта */
 .site-nav .link {
     color: var(--title-text-color);
 }
-
 .site-nav .link.current {
     color: var(--accent-color);
 }
-
-
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 
-.contact-list .mail:hover,
-.contact-list .mail:focus {
+/* Контакт с нами */
+.contacts li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+.contact-list {
+    text-decoration: none;
+}
+.contact-list:hover,
+.contact-list:focus {
     color: var(--accent-color);
 }
 
@@ -87,7 +91,11 @@ button:focus {
     color: var(--primary-bgc-color);
     background-color: var(--accent-color);
 }
- 
+button {
+    cursor: pointer;
+}
+
+/* Заголовки */
 .title {
     color: var(--title-text-color);
 }
@@ -99,3 +107,59 @@ font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
 }
+.portfolio .portfolio-card {
+    list-style: none;
+    text-decoration: none;
+}
+.portfolio .portfolio-link {
+    text-decoration: none;
+}
+
+/* Футер */
+.footer {
+    background-color: #2F303A;
+}
+.footer .logo {
+    color: var(--primary-bgc-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    text-decoration: none;
+}
+.footer .accent {
+    color: var(--accent-color);
+}
+.footer .address {
+    color: var(--primary-bgc-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.footer .contact-list {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+}
+.footer .title {
+    color: var(--primary-bgc-color);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.footer .link {
+    list-style: none;
+    text-decoration: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--primary-bgc-color);
+    background-color: var(--accent-color);
+}
+
+
