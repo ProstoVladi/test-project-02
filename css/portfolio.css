@@ -22,12 +22,22 @@ body {
     letter-spacing: 0.48px;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+
 .list {
     list-style: none;
     text-decoration: none;
 }
 
 /* Xедер */
+
 .header .logo {
     color: var(--title-text-color);
     font-family: Raleway, sans-serif;
@@ -48,6 +58,11 @@ body {
 }
 
 /* Навигация сайта */
+
+.site-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .site-nav .link {
     color: var(--title-text-color);
 }
@@ -60,6 +75,11 @@ body {
 }
 
 /* Контакт с нами */
+
+.contacts {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .contacts li {
     font-family: Roboto;
     font-size: 14px;
@@ -84,8 +104,13 @@ button {
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.48px;
-}
+    text-decoration: none;
 
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: none;
+}
 button:hover,
 button:focus {
     color: var(--primary-bgc-color);
@@ -95,17 +120,43 @@ button {
     cursor: pointer;
 }
 
+/* Filtr */
+
+.filter {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
 /* Заголовки */
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    text-align: center;
+}
 .title {
     color: var(--title-text-color);
 }
 
 /* портфолио */
+
+.portfolio {
+    margin-top: 0px;
+    margin-bottom: 94px;
+}
 .portfolio .title {
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
+
+margin-top: 20px;
+margin-bottom: 4px;
+}
+.portfolio .text {
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 .portfolio .portfolio-card {
     list-style: none;
@@ -116,6 +167,7 @@ letter-spacing: 1.08px;
 }
 
 /* Футер */
+
 .footer {
     background-color: #2F303A;
 }
