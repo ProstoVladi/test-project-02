@@ -21,8 +21,20 @@ body {
     line-height: 1.71;
 }
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+
 .list {
     list-style: none;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /*хедер */
@@ -70,26 +82,46 @@ body {
         font-weight: 500;
         letter-spacing: 0.28px;
         text-decoration: none;
+
+        
+}
+.contacts {
+    margin-bottom: 0px;
 }
 
+
 /* hero */
-.hero .hero-title {
-    color: var(--primary-bgc-color);
-    background-color: var(--title-text-color);
+.hero {
     text-align: center;
+
+    outline: 2px solid black;
+
+}
+.hero .hero-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    color: var(--accent-color);
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36; 
     letter-spacing: 2.64px;
 }
 
+
 /* section */
+.section {
+    margin-bottom: 94px;
+}
 .title {
     color: var(--title-text-color);
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.08px;
     text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 
@@ -100,6 +132,16 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.feature .text {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.feature {
+    margin-bottom: 94px;
 }
 
 /* team */
@@ -108,12 +150,18 @@ body {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.48px;
+
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .section .job-title {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
+
+    margin-top: 10px;
+    margin-bottom: 16px;
 }
 .team-list a:hover,
 .team-list a:focus {
@@ -126,15 +174,24 @@ body {
 
 /* button */
 .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+
     color: var(--primary-bgc-color);
     background-color: var(--accent-color);
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.96px;
     text-decoration: none;
+    text-align: center;
 }
+/* .button:hover,
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-bgc-color);
+} */
 
 /* футер */
 .footer {

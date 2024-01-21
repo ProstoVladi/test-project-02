@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -14,165 +15,173 @@
 
     <!-- Хедер -->
     <header class="header">
-        <nav>
-            <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
-    <ul class="site-nav list">
-        <li><a href="" class="link current">Студия</a></li>
-        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-        <li><a href="" class="link">Контакты</a></li>
-
-    </ul>
-</nav>
-<ul class="contacts">
-    <li class="list">
-        <img src="./imeges/logo/logomail.svg" alt="Логотип почты">
-        <a href="" class="contact-list">info@devstudio.com</a>
-    </li>
-    <li class="list">
-        <img src="/imeges/logo/logotel.svg" alt="Логотип телефона">
-        <a href="" class="contact-list">+38 096 111 11 11</a>
-    </li>
-</ul>
+        <div class="container">
+            <nav>
+                <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li><a href="" class="link current">Студия</a></li>
+                    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li><a href="" class="link">Контакты</a></li>
+            
+                </ul>
+            </nav>
+            <ul class="contacts">
+                <li class="list">
+                    <img src="./imeges/logo/logomail.svg" alt="Логотип почты">
+                    <a href="" class="contact-list">info@devstudio.com</a>
+                </li>
+                <li class="list">
+                    <img src="/imeges/logo/logotel.svg" alt="Логотип телефона">
+                    <a href="" class="contact-list">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div> 
 </header>
 
 <!-- Главная -->
 <main>
 
     <!-- Герой -->
-<section class="hero">
-    <h1 class="hero-title">ЭФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ <br/> ВАШЕГО БИЗНЕСА</h1>
-    <a href="" class="button">Заказать Услугу</a>
-
-</section>
+    <section class="hero">
+        <h1 class="hero-title">ЭФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ <br /> ВАШЕГО БИЗНЕСА</h1>
+        <a href="" class="button">Заказать Услугу</a>
+    </section>
 
 <!-- Преимущества -->
 <section class="feature">
-<ul class="list">
-    <li>
-        <img src="./imeges/advantages/Attentions.png" alt="Спутниковая антена">
-        <h2 class="feature-title">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
-        <P>Идейные рассуждения, а также начало повседневной работы по формированию позиции.</P>
-    </li>
-    <li>
-        <img src="./imeges/advantages/Time.png" alt="Часы">
-        <h2 class="feature-title">ПУНКТУАЛЬНОСТЬ</h2>
-        <P>Задача организации, особенно рамки и место обучения кадров влечет за собой.</P>
-    </li>
-    <li>
-        <img src="./imeges/advantages/Plans.png" alt="График">
-        <h2 class="feature-title">ПЛАНИРОВАНИЕ</h2>
-        <p>Так же консультация с широким активом в значительной степени предопределяет.</p>
-    </li>
-    <li>
-        <img src="./imeges/advantages/Technology.png" alt="Космонавт">
-        <h2 class="feature-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
-        <p> Значимость этих проблем так очевидна, что реализация плановых задач.</p>
-    </li>
-</ul>
+    <div class="container">
+        <ul class="list">
+            <li>
+                <img src="./imeges/advantages/Attentions.png" alt="Спутниковая антена">
+                <h2 class="feature-title">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
+                <p class="text">Идейные рассуждения, а также начало <br> повседневной работы по формированию <br> позиции.</p>
+            </li>
+            <li>
+                <img src="./imeges/advantages/Time.png" alt="Часы">
+                <h2 class="feature-title">ПУНКТУАЛЬНОСТЬ</h2>
+                <P class="text">Задача организации, особенно рамки <br> и место обучения кадров влечет за собой.</P>
+            </li>
+            <li>
+                <img src="./imeges/advantages/Plans.png" alt="График">
+                <h2 class="feature-title">ПЛАНИРОВАНИЕ</h2>
+                <p class="text">Так же консультация с широким активом <br> в значительной степени предопределяет.</p>
+            </li>
+            <li>
+                <img src="./imeges/advantages/Technology.png" alt="Космонавт">
+                <h2 class="feature-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
+                <p class="text"> Значимость этих проблем так очевидна, <br> что реализация плановых задач.</p>
+            </li>
+        </ul>
+    </div>
 </section>
 
 <!-- Чем мы занимаеся -->
 <section class="section">
-    <h2 class="title">Чем мы занимаемся</h2>
-    <ul class="list">
-        <li> 
-            <a href="">
-                <img src="./imeges/What-we-do/1.png" width="370" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="./imeges/What-we-do/2.png" width="370" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="./imeges/What-we-do/3.png" width="370" alt="">
-            </a>
-        </li>
-    </ul>
+    <div class="container">
+        <h2 class="title">Чем мы занимаемся</h2>
+        <ul class="list">
+            <li>
+                <a href="">
+                    <img src="./imeges/What-we-do/1.png" width="370" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/What-we-do/2.png" width="370" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/What-we-do/3.png" width="370" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    
 </section>
 
 <!-- Наша команда  -->
 <section class="section">
-    <h2 class="title">Наша команда</h2>
-    <ul class="team-list list">
-         <li>
-            <img src="./imeges/Our-tim/1.jpg" width="270" alt="Фото члена команды">
-            <p class="name">Игорь Демьяненко</p>
-            <p class="job-title">Product Designer</p>
-            <a href="" aria-label="Ссылка на Instagram">Instagram</a>
-            <a href="" aria-label="Ссылка на Twitter">Twitter</a>
-            <a href="" aria-label="Ссылка на Facebook">Facebook</a>
-            <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
-        </li>
-        <li>
-            <img src="./imeges/Our-tim/2.jpg" width="270" alt="Фото члена команды">
-            <p class="name">Ольга Репина</p>
-            <p class="job-title">Frontend Developer</p>
-            <a href="" aria-label="Ссылка на Instagram">Instagram</a>
-            <a href="" aria-label="Ссылка на Twitter">Twitter</a>
-            <a href="" aria-label="Ссылка на Facebook">Facebook</a>
-            <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
-        </li>
-        <li>
-            <img src="./imeges/Our-tim/3.jpg" width="270" alt="Фото члена команды">
-            <p class="name">Микола Тарасов</p>
-            <p class="job-title">Marketing</p>
-            <a href="" aria-label="Ссылка на Instagram">Instagram</a>
-            <a href="" aria-label="Ссылка на Twitter">Twitter</a>
-            <a href="" aria-label="Ссылка на Facebook">Facebook</a>
-            <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
-        </li>
-        <li>
-            <img src="./imeges/Our-tim/4.jpg" width="270" alt="Фото члена команды">
-            <p class="name">Михайло Ермаков</p>
-            <p class="job-title">UI Designer</p>
-            <a href="" aria-label="Ссылка на Instagram">Instagram</a>
-            <a href="" aria-label="Ссылка на Twitter">Twitter</a>
-            <a href="" aria-label="Ссылка на Facebook">Facebook</a>
-            <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
-        </li>
-    </ul>
+    <div class="container">
+        <h2 class="title">Наша команда</h2>
+        <ul class="team-list list">
+            <li>
+                <img src="./imeges/Our-tim/1.jpg" width="270" alt="Фото члена команды">
+                <p class="name">Игорь Демьяненко</p>
+                <p class="job-title">Product Designer</p>
+                <a href="" aria-label="Ссылка на Instagram">Instagram</a>
+                <a href="" aria-label="Ссылка на Twitter">Twitter</a>
+                <a href="" aria-label="Ссылка на Facebook">Facebook</a>
+                <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+                <img src="./imeges/Our-tim/2.jpg" width="270" alt="Фото члена команды">
+                <p class="name">Ольга Репина</p>
+                <p class="job-title">Frontend Developer</p>
+                <a href="" aria-label="Ссылка на Instagram">Instagram</a>
+                <a href="" aria-label="Ссылка на Twitter">Twitter</a>
+                <a href="" aria-label="Ссылка на Facebook">Facebook</a>
+                <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+                <img src="./imeges/Our-tim/3.jpg" width="270" alt="Фото члена команды">
+                <p class="name">Микола Тарасов</p>
+                <p class="job-title">Marketing</p>
+                <a href="" aria-label="Ссылка на Instagram">Instagram</a>
+                <a href="" aria-label="Ссылка на Twitter">Twitter</a>
+                <a href="" aria-label="Ссылка на Facebook">Facebook</a>
+                <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+                <img src="./imeges/Our-tim/4.jpg" width="270" alt="Фото члена команды">
+                <p class="name">Михайло Ермаков</p>
+                <p class="job-title">UI Designer</p>
+                <a href="" aria-label="Ссылка на Instagram">Instagram</a>
+                <a href="" aria-label="Ссылка на Twitter">Twitter</a>
+                <a href="" aria-label="Ссылка на Facebook">Facebook</a>
+                <a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a>
+            </li>
+        </ul>
+    </div>  
 </section>
 
 <!-- Постоянные клиенты -->
 <section class="section">
-    <h2 class="title">Постоянные  клиенты</h2>
-    <ul class="list">
-        <li>
-            <a href="">
-            <img src="./imeges/Regular-customers/Client1.svg" alt="Логотип потоянного клиента">
-        </a>
-    </li>
-    <li>
-        <a href="">
-            <img src="./imeges/Regular-customers/Client2.svg" alt="Логотип потоянного клиента">
-        </a>
-    </li>
-    <li>
-        <a href="">
-            <img src="./imeges/Regular-customers/Client3.svg" alt="Логотип потоянного клиента">
-        </a>
-    </li>
-    <li>
-        <a href="">
-            <img src="./imeges/Regular-customers/Client4.svg" alt="Логотип потоянного клиента">
-        </a>
-    </li>
-    <li>
-        <a href="">
-            <img src="./imeges/Regular-customers/Client5.svg" alt="Логотип потоянного клиента">
-        </a>
-    </li>
-    <li>
-        <a href="">
-            <img src="./imeges/Regular-customers/Client6.svg" alt="Логотип потоянного клиента">
-        </a>
-    </li>
-
-    </ul>
-
+    <div class="container">
+        <h2 class="title">Постоянные клиенты</h2>
+        <ul class="list">
+            <li>
+                <a href="">
+                    <img src="./imeges/Regular-customers/Client1.svg" alt="Логотип потоянного клиента">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/Regular-customers/Client2.svg" alt="Логотип потоянного клиента">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/Regular-customers/Client3.svg" alt="Логотип потоянного клиента">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/Regular-customers/Client4.svg" alt="Логотип потоянного клиента">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/Regular-customers/Client5.svg" alt="Логотип потоянного клиента">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./imeges/Regular-customers/Client6.svg" alt="Логотип потоянного клиента">
+                </a>
+            </li>
+        </ul>
+    </div>  
 </section>
 </main>
 
@@ -181,7 +190,7 @@
     <a href="/index.html" class="logo"><span class="accent">Web</span>Studio</a>
     <ul> 
         <li class="list">
-            <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+            <address class="address">Киев, пр-т Леси Украинки, 26</address>
         </li>
         <li class="list">
             <a href="" class="contact-list">
