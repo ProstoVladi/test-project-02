@@ -12,6 +12,11 @@
     --bgc-text-color: #F5F4FA;
 }
 
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-bgc-color);
@@ -28,12 +33,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
-}
-
-.list {
-    list-style: none;
-    text-decoration: none;
+    outline: 1px solid tomato;
 }
 
 /* Xедер */
