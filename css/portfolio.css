@@ -30,6 +30,7 @@ body {
 
 .container {
     width: 1200px;
+    min-height: 80px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -86,6 +87,7 @@ body {
 }
 
 .site-nav .link {
+    padding: 25px 0px;
     color: var(--title-text-color);
 }
 
@@ -106,27 +108,37 @@ body {
     margin-bottom: 0px;
     margin-left: auto;
     padding-left: 0px;
-}
 
-.header-contacts .item:not(:last-child) {
-    margin-right: 50px;
-}
-
-.contacts li {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
 
+.header-contacts .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
 .contact-list {
+    display: flex;
+    padding: 25px 0px;
+    align-items: center;
+
     text-decoration: none;
+
     color: var(--primary-text-color);
+    fill: var(--primary-text-color);
 }
 
 .contact-list:hover,
 .contact-list:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+.header-contacts .logo-icon {
+    margin-right: 10px;
 }
 
 /* button */
@@ -237,6 +249,11 @@ margin-bottom: 4px;
     text-decoration: none;
 }
 
+.portfolio .portfolio-card:hover,
+.portfolio .portfolio-card:focus {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
 /* Футер */
 
 .footer {
@@ -249,8 +266,9 @@ margin-bottom: 4px;
 }
 
 .footer-contacts .logo {
-    display: inline-block;
+    display: block;
     margin-bottom: 20px;
+    
 
     color: var(--primary-bgc-color);
     font-family: Raleway, sans-serif;
@@ -263,6 +281,7 @@ margin-bottom: 4px;
 .footer-contacts {
     margin-top: 60px;
     margin-bottom: 60px;
+    margin-right: 65px;
     padding-inline-start: 0px;
 }
 
@@ -307,4 +326,43 @@ margin-bottom: 4px;
 
 .social-links {
     padding-left: 0px;
+}
+
+.social-links {
+  display: flex;
+  width: 206px;
+  padding-left: 0px;
+}
+
+.social-links .item {
+  display: block;
+  
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.social-links .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-links .link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px 12px;
+  border-radius: 50%;
+
+  list-style: none;
+  text-decoration: none;
+  fill: var(--primary-bgc-color);
+}
+
+.social-links .logo {
+  margin-bottom: 0px;
+}
+
+.social-links .item:hover,
+.social-links .item:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
 }

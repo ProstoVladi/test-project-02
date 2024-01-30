@@ -42,12 +42,23 @@
         </nav>
         <ul class="header-contacts">
           <li class="item list">
-            <img src="./imeges/logo/logomail.svg" alt="Логотип почты" />
-            <a href="" class="contact-list">info@devstudio.com</a>
+            <a href="" class="contact-list">
+              <svg class="logo-icon" width="16px" height="12px">
+                <use
+                  href="./imeges/logo/sprite-logo.svg#icon-envelope"
+                ></use>
+            </svg>info@devstudio.com
+            </a>
           </li>
           <li class="item list">
-            <img src="/imeges/logo/logotel.svg" alt="Логотип телефона" />
-            <a href="" class="contact-list">+38 096 111 11 11</a>
+            <a href="" class="contact-list">
+              <svg class="logo-icon"  width="10px" height="16px">
+                <use
+                  href="./imeges/logo/sprite-logo.svg#icon-smartphone">
+                </use>
+            </svg>
+            +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -181,29 +192,48 @@
       <div class="footer-box container">
         <ul class="footer-contacts">
           <a href="/index.html" class="logo"
-            ><span class="accent">Web</span>Studio</a
-          >
+            ><span class="accent">Web</span>Studio</a>
           <li class="address list">
-            <address>Киев, пр-т Леси Украинки, 26</address>
-          </li>
-          <li class="list">
-            <a href="" class="contact-list">
-              <address>info@devstudio.com</address>
-            </a>
-          </li>
-          <li class="list">
-            <a href="" class="contact-list">
-              <address>+38 096 111 11 11</address>
-            </a>
+            <address>Киев, пр-т Леси Украинки, 26<br/>
+            <a href="" class="contact-list">info@devstudio.com</a><br/>
+            <a href="" class="contact-list">+38 096 111 11 11</a><br/>
+         </address>
           </li>
         </ul>
-        <!-- <ul class="social-links">
-                <li class="title"><b>Присоединяйтесь</b></li>
-                <li class="list"><a href="" class="link" aria-label="Instagram link">Instagram</a></li>
-                <li class="list"><a href="" class="link" aria-label="Twitter link">Twitter</a></li>
-                <li class="list"><a href="" class="link" aria-label="Facebook link">Facebook</a></li>
-                <li class="list"><a href="" class="link" aria-label="LinkedIn link">LinkedIn</a></li>
-            </ul> -->
+    <div class="join">
+        <h2 class="title">Присоединяйтесь</h2>
+        <ul class="social-links">
+            <li class="item list">
+                <a href="" class="link">
+                    <svg class="logo" width="20px" height="20px">
+                        <use href="./imeges/logo/sprite-logo.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="item list">
+                <a href="" class="link">
+                    <svg class="logo" width="20px" height="20px">
+                        <use href="./imeges/logo/sprite-logo.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="item list">
+                <a href="" class="link">
+                    <svg class="logo" width="20px" height="20px">
+                        <use href="./imeges/logo/sprite-logo.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="item list">
+                <a href="" class="link">
+                    <svg class="logo" width="20px" height="20px">
+                        <use href="./imeges/logo/sprite-logo.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
       </div>
     </footer>
   </body>
