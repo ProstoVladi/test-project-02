@@ -4,6 +4,16 @@
 /* цвет акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
+body {
+  background-color: var(--primary-bgc-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.42px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -21,14 +31,12 @@
   margin-bottom: 0px;
 }
 
-body {
-  background-color: var(--primary-bgc-color);
-  color: var(--primary-text-color);
-  font-family: roboto, sans-serif;
-  letter-spacing: 0.42px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
+.link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+address {
+  font-style: normal;
 }
 
 .container {
@@ -77,7 +85,7 @@ body {
 }
 
 .site-nav .link {
-  display: inline-block;
+  display: block;
   padding: 32px 0px;
 
   color: var(--title-text-color);
@@ -88,7 +96,20 @@ body {
 }
 
 .site-nav .link.current {
+  position: relative;
   color: var(--accent-color);
+}
+
+.site-nav .link.current::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+
+  background-color: var(--accent-color);
 }
 
 .site-nav .link:hover,
@@ -208,7 +229,7 @@ body {
 /* Backdrop */
 
 .backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 1349px;
@@ -483,9 +504,17 @@ body {
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
+
+.footer-contact-list {
+  padding: 0;
+
+  list-style: none;
+  text-decoration: none;
 
   color: var(--primary-bgc-color);
 }
+
 .footer .contact {
   font-size: 14px;
   font-weight: 400;
@@ -512,11 +541,10 @@ body {
 }
 .footer .link:hover,
 .footer .link:focus {
-  color: var(--primary-bgc-color);
-  background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.adress-list {
+.address-list {
   margin-top: 60px;
   margin-bottom: 60px;
   padding-left: 0px;
