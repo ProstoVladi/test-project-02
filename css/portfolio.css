@@ -309,6 +309,7 @@ h1 {
 .portfolio .portfolio-card {
   list-style: none;
   text-decoration: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio .portfolio-link {
@@ -332,6 +333,15 @@ h1 {
   align-items: center;
 }
 
+.footer-contacts {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 65px;
+  padding-inline-start: 0px;
+
+  list-style: none;
+}
+
 .footer-contacts .logo {
   display: block;
   margin-bottom: 20px;
@@ -341,14 +351,6 @@ h1 {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-  text-decoration: none;
-}
-
-.footer-contacts {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-right: 65px;
-  padding-inline-start: 0px;
 }
 
 .footer .accent {
@@ -381,6 +383,10 @@ h1 {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   list-style: none;
+}
+
+.footer .join {
+  margin-right: 93px;
 }
 
 .footer .link {
@@ -435,4 +441,37 @@ h1 {
 .social-links .item:focus {
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.subscript-title {
+  color: var(--primary-bgc-color);
+}
+
+.subscript-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 12px;
+
+  width: 358px;
+}
+
+.subscript-button {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  padding-right: 28px;
+
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  background-color: var(--accent-color);
+  /* border-color: var(--accent-color); */
+}
+
+.subscript-icon {
+  margin-left: 10px;
 }
