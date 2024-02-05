@@ -86,37 +86,43 @@
           <strong class="order-service-title">Оставьте свои данные, мы вам перезвоним</strong>
           <div class="order-service-list">
             <label class="order-service-label">
+              <input type="text" name="full-name" required minlength="3" placeholder="Иван Иванов"
+                class="order-service-input">
               <span class="order-service-text">Имя</span>
-              <input type="text" name="full-name">
               <svg width="18" height="18" class="order-service-icon">
-                <use href=""></use>
+                <use href="./imeges/logo/sprite-logo.svg#icon-person-black"></use>
               </svg>
             </label>
             <label class="order-service-label">
+              <input type="tel" name="tel" required minlength="12" maxlength="12" placeholder="+7-937-999-99-99"
+                class="order-service-input">
               <span class="order-service-text">Телефон</span>
-              <input type="tel" name="tel">
               <svg width="18" height="18" class="order-service-icon">
-                <use href=""></use>
+                <use href="./imeges/logo/sprite-logo.svg#icon-phone-black"></use>
               </svg>
             </label>
             <label class="order-service-label">
+              <input type="email" name="email" required placeholder="exemple@mail.com" class="order-service-input">
               <span class="order-service-text">Почта</span>
-              <input type="email" name="email">
               <svg width="18" height="18" class="order-service-icon">
-                <use href=""></use>
+                <use href="./imeges/logo/sprite-logo.svg#icon-email-black"></use>
               </svg>
             </label>
-            <label class="order-service-label">
-              <span class="order-service-text">Комментарий</span>
+            <label class="order-service-label-feedback">
+              <span class="order-service-text-feedback">Комментарий</span>
               <textarea name="feedback" rows="5" class="order-service-feedback" placeholder="Введите текст"></textarea>
             </label>
           </div>
-          <label class="order-service-label">
-            <input type="checkbox" name="policy" class="order-service-policy">
-            <span class="order-service-text">Соглашаюсь с рассылкою и принимаю <a href="">Условия
+          <label class="order-service-policy">
+            <input type="checkbox" name="policy" class="order-service-policy-input visually-hidden">
+            <svg class="order-service-policy-icon" width="18px" height="18px">
+              <use class="icon-unchecked" href="./imeges/logo/sprite-logo.svg#icon-unchecked"></use>
+              <use class="icon-checked" href="./imeges/logo/sprite-logo.svg#icon-checked"></use>
+            </svg>
+            <span class="order-service-policy-text">Соглашаюсь с рассылкою и принимаю <a href="">Условия
                 договора</a></span>
           </label>
-          <button type="submit" class="order-service-button-send">Отправить</button>
+          <button type="submit" class="order-service-button-send button">Отправить</button>
         </form>
       </div>
     </div>
@@ -427,7 +433,7 @@
       <div class="subscript-container">
         <b class="subscript-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
         <form class="subscript-form">
-          <label>
+          <label class="subscript-label">
             <input type="email" name="email" placeholder="E-mail" class="subscript-email">
           </label>
           <button type="submit" class="subscript-button">Подписаться

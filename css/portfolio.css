@@ -452,8 +452,21 @@ h1 {
   align-items: center;
   margin-top: 20px;
   gap: 12px;
+}
 
+.subscript-email {
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
   width: 358px;
+  height: 50px;
+  outline: transparent;
+
+  background-color: var(--footer-bcg-color);
+  color: var(--primary-bgc-color);
+}
+
+.subscript-label:focus {
 }
 
 .subscript-button {
@@ -468,8 +481,13 @@ h1 {
   border: 0px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-bgc-color);
   background-color: var(--accent-color);
-  /* border-color: var(--accent-color); */
 }
 
 .subscript-icon {
