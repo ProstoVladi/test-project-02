@@ -83,12 +83,12 @@ address {
 
 /* Навигация сайта */
 
-.main-nav {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.page-nav {
+.header__nav {
   display: flex;
 }
 
@@ -132,7 +132,7 @@ address {
 
 /* Контакт с нами */
 
-.header-contacts {
+.header__contacts {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
