@@ -1,0 +1,16 @@
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.logo--dark {
+  color: var(--accent-dark-color);
+}
+
+.logo--light {
+  color: var(--white-text-color);
+}

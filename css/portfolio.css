@@ -4,7 +4,7 @@
 /* цвет акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
-body {
+/* body {
   background-color: var(--primary-bgc-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
@@ -25,7 +25,6 @@ body {
   --footer-bcg-color: #2f303a;
   --accent-dark-color: #000000;
   --white-text-color: #ffffff;
-  /* Animation */
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -81,11 +80,11 @@ address {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -100,11 +99,11 @@ address {
 
 .logo--light {
   color: var(--white-text-color);
-}
+} */
 
 /* Title */
 
-.title {
+/* .title {
   color: var(--title-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -112,17 +111,17 @@ address {
   text-align: center;
 
   margin-top: 0px;
-}
+} */
 
 /* Section */
 
-.section {
+/* .section {
   margin-bottom: 94px;
-}
+} */
 
 /*хедер */
 
-.header {
+/* .header {
   margin-bottom: 94px;
 
   border-bottom: 1px solid var(--accent-border-color);
@@ -227,11 +226,11 @@ address {
 .header__contacts-icon {
   margin-right: 10px;
   transition: fill var(--animation);
-}
+} */
 
 /* button */
 
-button {
+/* button {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
@@ -244,8 +243,10 @@ button {
   letter-spacing: 0.48px;
   text-decoration: none;
 
+  cursor: pointer;
+
   color: var(--title-text-color);
-  background-color: var(--bgc-text-color);
+  background-color: var(--secondary-bcg-color);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -255,24 +256,21 @@ button:hover,
 button:focus {
   color: var(--primary-bgc-color);
   background-color: var(--accent-color);
-}
-button {
-  cursor: pointer;
-}
+} */
 
 /* Filter */
 
-.portfolio__filter {
+/* .portfolio__filter {
   display: flex;
   margin-top: 0px;
   margin-bottom: 50px;
   padding-left: 0px;
   justify-content: center;
-}
+} */
 
 /* Portfolio */
 
-.portfolio {
+/* .portfolio {
   margin-top: 0px;
   margin-bottom: 94px;
 }
@@ -362,11 +360,11 @@ button {
   padding-left: 24px;
 
   color: var(--primary-text-color);
-}
+} */
 
 /* футер */
 
-.footer {
+/* .footer {
   background-color: var(--footer-bcg-color);
 }
 
@@ -426,11 +424,11 @@ button {
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Join */
 
-.join {
+/* .join {
   margin-top: 72px;
   margin-right: 93px;
   flex-direction: column;
@@ -482,11 +480,11 @@ button {
 .join__link:hover,
 .join__link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* Subscript */
 
-.subscript__title {
+/* .subscript__title {
   color: var(--primary-bgc-color);
 }
 
@@ -532,4 +530,4 @@ button {
 
 .subscript__icon {
   margin-left: 10px;
-}
+} */

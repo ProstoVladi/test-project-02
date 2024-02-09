@@ -1,0 +1,13 @@
+@mixin fonts(
+  $ff: roboto sans-serif,
+  $fw: 400,
+  $fs: 14px,
+  $lh: 1.71,
+  $ls: 0.42px
+) {
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
