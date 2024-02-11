@@ -2,3 +2,8 @@
   padding-top: $padding;
   padding-bottom: $padding;
 }
+
+@mixin client-icon($width: 210px, $height: 92px) {
+  width: $width;
+  height: $height;
+}
