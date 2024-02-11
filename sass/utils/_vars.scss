@@ -1,13 +1,36 @@
 :root {
+  // Text color
   --primary-text-color: #757575;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --white-text-color: #ffffff;
+
+  // Title color
   --title-text-color: #212121;
+  --title-secondary-color: #ffffff;
+
+  // Accent color
   --accent-color: #2196f3;
+  --accent-dark-color: #000000;
+
+  // Background color
   --primary-bgc-color: #ffffff;
   --secondary-bcg-color: #f5f4fa;
-  --accent-border-color: #ececec;
-  --icon-color: #afb1b8;
   --footer-bcg-color: #2f303a;
-  --accent-dark-color: #000000;
-  --white-text-color: #ffffff;
+
+  // Border color
+  --accent-border-color: #ececec;
+
+  // Icon color
+  --icon-color: #afb1b8;
+  --secondary-icon-color: #ffffff;
+
+  // Button color
+  --btn-text-color: #ffffff;
+  --btn--bcg-color: #2196f3;
+
+  // Hover color
+  --hover-color: #2196f3;
+
+  // Animation
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

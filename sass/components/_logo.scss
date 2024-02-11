@@ -1,7 +1,7 @@
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.78px;
   text-decoration: none;
@@ -13,4 +13,8 @@
 
 .logo--light {
   color: var(--white-text-color);
+}
+
+.footer_logo--margin-bottom {
+  margin-bottom: 20px;
 }
