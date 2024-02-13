@@ -1,17 +1,25 @@
 .work {
-  @extend %section;
+  display: none;
+  max-width: 1600px;
+
+  @include section;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 
 .work__title {
-  @extend %title;
-
   margin-bottom: 50px;
+
+  @extend %title;
 }
 
 .work__list {
   display: flex;
-  padding-left: 0px;
   gap: 30px;
+
+  @extend %list;
 }
 
 .work__item {

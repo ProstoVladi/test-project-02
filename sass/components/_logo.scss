@@ -4,7 +4,12 @@
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.78px;
-  text-decoration: none;
+
+  @extend %link;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
 }
 
 .logo--dark {
@@ -13,6 +18,14 @@
 
 .logo--light {
   color: var(--white-text-color);
+}
+
+.header__logo {
+  margin-right: 87px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 92px;
+  }
 }
 
 .footer_logo--margin-bottom {

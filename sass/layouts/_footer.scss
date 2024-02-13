@@ -3,7 +3,7 @@
 
   background-color: var(--footer-bcg-color);
 
-  @include section($padding: 60px);
+  @include section($padding-top: 60px, $padding-bottom: 60px);
 }
 
 .footer--flex {
