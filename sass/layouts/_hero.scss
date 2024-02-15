@@ -22,7 +22,7 @@
   }
 
   // Tablet image
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 768px) {
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
@@ -38,7 +38,7 @@
   }
 
   // Desktop image
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1200px) {
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
