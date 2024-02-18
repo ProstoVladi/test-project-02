@@ -1,209 +1,211 @@
 .footer {
-  max-width: 1600px;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 
-  background-color: var(--footer-bcg-color);
+	background-color: var(--footer-bcg-color);
 
-  @include section($padding-top: 60px, $padding-bottom: 60px);
+	@include section($padding-top: 60px, $padding-bottom: 60px);
 }
 
 .footer--flex {
-  display: flex;
+	display: flex;
 
-  @media screen and (max-width: 767px) {
-    flex-direction: column;
-  }
+	@media screen and (max-width: 767px) {
+		flex-direction: column;
+	}
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 
-  @media screen and (min-width: 1200px) {
-    align-items: baseline;
-  }
+	@media screen and (min-width: 1200px) {
+		align-items: baseline;
+	}
 }
 
 .footer--wrap {
-  margin-bottom: 60px;
+	margin-bottom: 60px;
 
-  @media screen and (min-width: 768px) {
-    display: flex;
-    align-items: baseline;
-  }
+	@media screen and (min-width: 768px) {
+		display: flex;
+		align-items: baseline;
+	}
 
-  @media screen and (min-width: 1200px) {
-    margin-right: 94px;
-  }
+	@media screen and (min-width: 1200px) {
+		margin-right: 94px;
+	}
 }
 
 .footer__contact-list {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  @media screen and (max-width: 1199px) {
-    justify-content: center;
-    align-items: center;
+	@media screen and (max-width: 1199px) {
+		justify-content: center;
+		align-items: center;
 
-    margin-bottom: 60px;
-  }
+		margin-bottom: 60px;
+	}
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-right: 165px;
-  }
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		margin-right: 165px;
+	}
 }
 
 .footer__address-list {
-  @media screen and (max-width: 1199px) {
-    text-align: center;
-  }
+	@media screen and (max-width: 1199px) {
+		text-align: center;
+	}
 
-  @media screen and (min-width: 1200px) {
-    text-align: start;
-    margin-right: 70px;
-  }
+	@media screen and (min-width: 1200px) {
+		text-align: start;
+		margin-right: 70px;
+	}
 
-  @extend %link;
+	@extend %link;
 }
 
 .address-item {
-  color: var(--title-secondary-color);
+	color: var(--title-secondary-color);
 
-  @media screen and (max-width: 1199px) {
-    margin-bottom: 8px;
-  }
+	@media screen and (max-width: 1199px) {
+		margin-bottom: 8px;
+	}
 
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 9px;
-  }
+	@media screen and (min-width: 1200px) {
+		margin-bottom: 9px;
+	}
 }
 
 .address-link {
-  @extend %link;
+	@extend %link;
 
-  color: var(--secondary-text-color);
+	color: var(--secondary-text-color);
 
-  transition: color var(--animation);
+	transition: color var(--animation);
 
-  @media screen and (max-width: 1199px) {
-    &:not(:last-child) {
-      margin-bottom: 8px;
-    }
-  }
+	@media screen and (max-width: 1199px) {
+		&:not(:last-child) {
+			margin-bottom: 8px;
+		}
+	}
 
-  @media screen and (min-width: 1200px) {
-    &:not(:last-child) {
-      margin-bottom: 9px;
-    }
-  }
+	@media screen and (min-width: 1200px) {
+		&:not(:last-child) {
+			margin-bottom: 9px;
+		}
+	}
 
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-  }
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
 }
 
 .join {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .join__title {
-  margin-bottom: 20px;
-  color: var(--title-secondary-color);
+	margin-bottom: 20px;
+	color: var(--title-secondary-color);
 }
 
 .join__social-list {
-  display: flex;
-  margin: 0;
-  width: 206px;
-  padding-left: 0px;
-  cursor: pointer;
+	display: flex;
+	margin: 0;
+	width: 206px;
+	padding-left: 0px;
+	cursor: pointer;
 }
 
 .join__item {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
 
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
 
-  @extend %list;
+	@extend %list;
 }
 
 .join__link {
-  @extend %link;
+	@extend %link;
 
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  padding: 12px 12px;
-  border-radius: 50%;
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	padding: 12px 12px;
+	border-radius: 50%;
 
-  transition: background-color var(--animation);
+	transition: background-color var(--animation);
 
-  fill: var(--secondary-icon-color);
+	fill: var(--secondary-icon-color);
 
-  &:hover,
-  &:focus {
-    background-color: var(--hover-color);
-  }
+	&:hover,
+	&:focus {
+		background-color: var(--hover-color);
+	}
 }
 
 .subscript {
-  text-align: center;
+	text-align: center;
 
-  @media screen and (min-width: 1200px) {
-    text-align: start;
-  }
+	@media screen and (min-width: 1200px) {
+		text-align: start;
+	}
 }
 
 .subscript__title {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: var(--title-secondary-color);
+	display: inline-block;
+	margin-bottom: 20px;
+	color: var(--title-secondary-color);
 }
 
 .subscript__form {
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+	@media screen and (min-width: 1200px) {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
 }
 
 .subscript__label {
-  color: var(--secondary-text-color);
+	color: var(--secondary-text-color);
 
-  transition: border-color var(--animation);
+	transition: border-color var(--animation);
 
-  @media screen and (max-width: 1199px) {
-    display: block;
-    margin-bottom: 20px;
-  }
+	@media screen and (max-width: 1199px) {
+		display: block;
+		margin-bottom: 20px;
+	}
 
-  @media screen and (min-width: 768px) {
-    width: 450px;
-  }
+	@media screen and (min-width: 768px) {
+		width: 450px;
+	}
 }
 
 .subscript__email {
-  padding-left: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  width: 100%;
-  height: 50px;
+	padding-left: 16px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	width: 100%;
+	height: 50px;
 
-  color: inherit;
+	color: inherit;
 
-  outline: transparent;
+	outline: transparent;
 
-  background-color: var(--footer-bcg-color);
+	background-color: var(--footer-bcg-color);
 
-  &:hover,
-  &:focus {
-    border-color: var(--hover-color);
-  }
+	&:hover,
+	&:focus {
+		border-color: var(--hover-color);
+	}
 }

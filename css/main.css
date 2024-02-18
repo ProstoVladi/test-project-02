@@ -298,6 +298,8 @@ address {
 
 .feature {
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (max-width: 1199px) {
   .feature {
@@ -401,6 +403,8 @@ address {
 .work {
   display: none;
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -567,6 +571,8 @@ address {
 
 .clients {
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -828,6 +834,8 @@ address {
 
 .footer {
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--footer-bcg-color);
   padding-top: 60px;
   padding-bottom: 60px;
