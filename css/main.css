@@ -450,6 +450,9 @@ address {
 }
 
 .team {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-bcg-color);
